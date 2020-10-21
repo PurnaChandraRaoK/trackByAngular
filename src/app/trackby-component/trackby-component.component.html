@@ -1,0 +1,5 @@
+
+<div>
+    <p *ngFor="let fruit of fruits;trackBy:trackById">{{fruit.name}}</p>
+    <button (click)="processFruits()">Process Fruits</button>
+</div>
